@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Weatherwoman</string>
+    <string name="hello">Hello Sunshine click my hand!</string>
+    <string name="weatherwoman">Weatherwoman</string>
+    <string name="min_button">City with the lowest temperature</string>
+    <string name="max_button">City and its highest temperature</string>
+    <string name="all_cities">Weather forecast for all cities</string>
+    <string name="avg_daily_button">The lowest average daily temperature</string>
+    <string name="title_activity_min_temp">City with the lowest temperature</string>
+    <string name="title_activity_max_temp">City and its highest temperature</string>
+    <string name="title_activity_low_avg_temp">The lowest average temperature</string>
+    <string name="title_activity_all_cities">Weather forecast for all cities</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
