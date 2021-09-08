@@ -9,7 +9,29 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.Weatherwoman">
-        <activity android:name=".MainActivity">
+        <activity
+                android:name=".AllCitiesActivity"
+                android:label="@string/title_activity_all_cities"
+                android:theme="@style/Theme.Weatherwoman.NoActionBar">
+        </activity>
+        <activity
+                android:name=".LowAvgTempActivity"
+                android:label="@string/title_activity_low_avg_temp"
+                android:theme="@style/Theme.Weatherwoman.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MaxTempActivity"
+                android:label="@string/title_activity_max_temp"
+                android:theme="@style/Theme.Weatherwoman.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MinTempActivity"
+                android:label="@string/title_activity_min_temp"
+                android:theme="@style/Theme.Weatherwoman.NoActionBar">
+        </activity>
+        <activity android:name=".WeatherForecastActivity">
+        </activity>
+        <activity android:name=".WeatherwomanActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
