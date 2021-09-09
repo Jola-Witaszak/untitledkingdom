@@ -5,8 +5,15 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LowAvgTempActivity">
+        tools:context=".LowAvgTempActivity" android:textAlignment="textEnd">
 
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumberDecimal" android:importantForAutofill="no" android:autofillHints=""
+            android:labelFor="@id/toolbar" android:drawableTint="#FFFFFF"/>
     <com.google.android.material.appbar.AppBarLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -17,10 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
-                app:popupTheme="@style/Theme.Weatherwoman.PopupOverlay"/>
+                app:popupTheme="@style/Theme.Weatherwoman.PopupOverlay" app:title="The lowest average temperature"/>
 
     </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_low_avg_temp"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

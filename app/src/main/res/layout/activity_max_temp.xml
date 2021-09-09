@@ -17,10 +17,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
-                app:popupTheme="@style/Theme.Weatherwoman.PopupOverlay"/>
+                app:popupTheme="@style/Theme.Weatherwoman.PopupOverlay"
+                app:title="The city and its maximum temperature"/>
+        <TextView
+                android:text="@string/maxTempField"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView"/>
 
     </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_max_temp"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

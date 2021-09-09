@@ -5,4 +5,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="@string/MinTempTextView"
+            android:id="@+id/minTemp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="200dp" android:autofillHints=""
+            android:importantForAutofill="no"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

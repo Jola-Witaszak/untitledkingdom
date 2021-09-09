@@ -2,11 +2,11 @@
     <string name="app_name">Weatherwoman</string>
     <string name="hello">Hello Sunshine click my hand!</string>
     <string name="weatherwoman">Weatherwoman</string>
-    <string name="min_button">City with the lowest temperature</string>
+    <string name="min_button">The lowest temperature</string>
     <string name="max_button">City and its highest temperature</string>
     <string name="all_cities">Weather forecast for all cities</string>
     <string name="avg_daily_button">The lowest average daily temperature</string>
-    <string name="title_activity_min_temp">City with the lowest temperature</string>
+    <string name="title_activity_min_temp">The lowest temperature</string>
     <string name="title_activity_max_temp">City and its highest temperature</string>
     <string name="title_activity_low_avg_temp">The lowest average temperature</string>
     <string name="title_activity_all_cities">Weather forecast for all cities</string>
@@ -20,4 +20,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="MinTempTextView">TextView</string>
+    <string name="maxTempField">TextView</string>
+    <string name="minTempTextView">MinTemp</string>
+
 </resources>

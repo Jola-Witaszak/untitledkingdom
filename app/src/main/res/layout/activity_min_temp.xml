@@ -5,22 +5,25 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MinTempActivity">
+        tools:context="@string/min_button">
 
     <com.google.android.material.appbar.AppBarLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:theme="@style/Theme.Weatherwoman.AppBarOverlay">
 
-        <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
-                app:popupTheme="@style/Theme.Weatherwoman.PopupOverlay"/>
-
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_min_temp"/>
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Weatherwoman.PopupOverlay" app:title="The smallest temperature"
+            app:titleTextColor="@color/white"/>
+    <TextView
+            android:text="@string/minTempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/minTempTextView"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
