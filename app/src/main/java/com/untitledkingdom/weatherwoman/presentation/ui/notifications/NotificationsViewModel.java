@@ -1,4 +1,4 @@
-package com.untitledkingdom.weatherwoman.ui.notifications;
+package com.untitledkingdom.weatherwoman.presentation.ui.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

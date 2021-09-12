@@ -1,4 +1,4 @@
-package com.untitledkingdom.weatherwoman.ui.dashboard;
+package com.untitledkingdom.weatherwoman.presentation.ui.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
