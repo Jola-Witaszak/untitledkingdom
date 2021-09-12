@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
           package="com.untitledkingdom.weatherwoman">
 
     <application
@@ -9,29 +10,26 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.Weatherwoman">
+        <activity android:name=".presentation.AllCitiesActivity"
+            android:parentActivityName=".presentation.WeatherForecastActivity">
+        </activity>
+        <activity android:name=".presentation.LowAvgTempActivity"
+            android:parentActivityName=".presentation.WeatherForecastActivity">
+        </activity>
+        <activity android:name=".presentation.MaxTempActivity"
+            android:parentActivityName=".presentation.WeatherForecastActivity">
+        </activity>
         <activity
-                android:name=".AllCitiesActivity"
-                android:label="@string/title_activity_all_cities"
+                android:name=".presentation.MinTemperatureActivity"
+                android:label="@string/title_activity_min_temperature"
+                android:parentActivityName=".presentation.WeatherForecastActivity"
                 android:theme="@style/Theme.Weatherwoman.NoActionBar">
         </activity>
         <activity
-                android:name=".LowAvgTempActivity"
-                android:label="@string/title_activity_low_avg_temp"
-                android:theme="@style/Theme.Weatherwoman.NoActionBar">
+                android:name=".presentation.WeatherForecastActivity"
+                android:parentActivityName=".presentation.WeatherwomanActivity">
         </activity>
-        <activity
-                android:name=".MaxTempActivity"
-                android:label="@string/title_activity_max_temp"
-                android:theme="@style/Theme.Weatherwoman.NoActionBar">
-        </activity>
-        <activity
-                android:name=".MinTempActivity"
-                android:label="@string/title_activity_min_temp"
-                android:theme="@style/Theme.Weatherwoman.NoActionBar">
-        </activity>
-        <activity android:name=".WeatherForecastActivity">
-        </activity>
-        <activity android:name=".WeatherwomanActivity">
+        <activity android:name=".presentation.WeatherwomanActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

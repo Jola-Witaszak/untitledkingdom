@@ -1,4 +1,4 @@
-package com.untitledkingdom.weatherwoman.weatherforecast.dto;
+package com.untitledkingdom.weatherwoman.use_cases.dto;
 
 public class HourlyTemperatureDto {
 

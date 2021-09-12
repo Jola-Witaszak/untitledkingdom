@@ -1,10 +1,11 @@
-package com.untitledkingdom.weatherwoman;
+package com.untitledkingdom.weatherwoman.presentation;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
+import com.untitledkingdom.weatherwoman.R;
 
 public class WeatherForecastActivity extends AppCompatActivity {
 
@@ -15,17 +16,18 @@ public class WeatherForecastActivity extends AppCompatActivity {
     }
 
     @SuppressLint("NonConstantResourceId")
-    public void clickTemp(View view) {
+    public void onClick(View view) {
+
         Intent intent;
         switch (view.getId()) {
             case R.id.min_button:
-                intent = new Intent(WeatherForecastActivity.this, MinTempActivity.class);
+                intent = new Intent(WeatherForecastActivity.this, MinTemperatureActivity.class);
                 startActivity(intent);
                 break;
             case R.id.max_button:
-                intent = new Intent(WeatherForecastActivity.this, MaxTempActivity.class);
-                startActivity(intent);
-                break;
+               intent = new Intent(WeatherForecastActivity.this, MaxTempActivity.class);
+               startActivity(intent);
+               break;
             case R.id.average_daily_button:
                 intent = new Intent(WeatherForecastActivity.this, LowAvgTempActivity.class);
                 startActivity(intent);
