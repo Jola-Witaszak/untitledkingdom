@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">Weatherwoman</string>
+    <string name="hello_label">Hello Sunshine click my hand!</string>
+    <string name="weatherwoman_png">Weatherwoman</string>
+    <string name="min_button">The lowest temperature</string>
+    <string name="max_button">The highest temperatures</string>
+    <string name="all_cities_button">Weather forecast for all cities</string>
+    <string name="avg_daily_button">The lowest average daily temperature</string>
+    <string name="title_activity_min_temp">The lowest temperature</string>
+    <string name="title_activity_max_temp">The highest temperature</string>
+    <string name="title_activity_low_avg_temp">The lowest average temperature</string>
+    <string name="title_activity_all_cities">Full weather forecast</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_min_temperature">The lowest temperature</string>
+    <string name="hint_min_temp">0.0</string>
+    <string name="hint_min_temp_textfield">min temp text</string>
+    <string name="celsius">Celsius degrees</string>
+    <string name="printer">TextViewPrinter</string>
+    <string name="textViewCityMax">City and max temp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="send_button">Send</string>
+    <string name="toolbar_city_max_temp">The city and its max temperature</string>
+    <string name="toolbar_min_temp">The lowest temperature</string>
+    <string name="edit_text_allcities">Weatherforecast</string>
+    <string name="toolbar_low_avg_temp">The smallest average daily temperature</string>
+    <string name="edit_text_celsius_degrees">Celsius degrees</string>
+    <string name="editText_celsius_result">degrees</string>
+    <string name="city_max_temp">City and its max temp</string>
+
 </resources>
